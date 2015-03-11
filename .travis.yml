@@ -4,10 +4,10 @@ node_js:
 - iojs
 - '0.12'
 - '0.10'
-env:
-  global:
-    GH_REF: "https://github.com/SkittishSlothLabs/ss-lib-generator"
-    secure: GP+KRyOUJWD1y8Cca3Mbx9SVRMzvZZyyWKiM23zrBIn8bBdxhwpSd5b22utQcQeAUhIWIMqk+ztZ7xTESauSMSlbvDSgByq4YII/D4e1cWDfmUrKsIz6XoYiKTem7t6cfSelSH34/KPRXeHa4asNy1LoefzmjZjVB/wiGK0JfVw=
+# env:
+#   global:
+#     GH_REF: "https://github.com/SkittishSlothLabs/ss-lib-generator"
+#     secure: GP+KRyOUJWD1y8Cca3Mbx9SVRMzvZZyyWKiM23zrBIn8bBdxhwpSd5b22utQcQeAUhIWIMqk+ztZ7xTESauSMSlbvDSgByq4YII/D4e1cWDfmUrKsIz6XoYiKTem7t6cfSelSH34/KPRXeHa4asNy1LoefzmjZjVB/wiGK0JfVw=
 deploy:
 - provider: npm
   email: sloth.labs@gmail.com
