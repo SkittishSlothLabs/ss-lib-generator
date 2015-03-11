@@ -1,4 +1,4 @@
-# generator-ss-lib-generator [![Build Status](https://secure.travis-ci.org/mcory/generator-ss-lib-generator.png?branch=master)](https://travis-ci.org/mcory/generator-ss-lib-generator)
+# generator-ss-lib-generator [![Build Status](https://travis-ci.org/SkittishSlothLabs/ss-lib-generator.svg?branch=master)](https://travis-ci.org/SkittishSlothLabs/ss-lib-generator)
 
 > [Yeoman](http://yeoman.io) generator
 
