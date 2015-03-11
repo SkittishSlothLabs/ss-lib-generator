@@ -77,7 +77,7 @@ module.exports = yeoman.generators.Base.extend({
       );
       this.template(
         this.templatePath('_README.md'),
-        this.destinationPath('README.md'), 
+        this.destinationPath('README.md'),
         this
       );
     },
@@ -98,7 +98,6 @@ module.exports = yeoman.generators.Base.extend({
   },
 
   install: function() {
-    console.log("In install.");
     this.installDependencies({
       bower: false,
       npm: true,

@@ -1,6 +1,25 @@
 sudo: false
 language: node_js
 node_js:
-  - 'iojs'
-  - '0.12'
-  - '0.10'
+- iojs
+- '0.12'
+- '0.10'
+env:
+  global:
+    GH_REF: "https://github.com/SkittishSlothLabs/ss-lib-generator"
+    secure: GP+KRyOUJWD1y8Cca3Mbx9SVRMzvZZyyWKiM23zrBIn8bBdxhwpSd5b22utQcQeAUhIWIMqk+ztZ7xTESauSMSlbvDSgByq4YII/D4e1cWDfmUrKsIz6XoYiKTem7t6cfSelSH34/KPRXeHa4asNy1LoefzmjZjVB/wiGK0JfVw=
+deploy:
+- provider: npm
+  email: sloth.labs@gmail.com
+  api_key:
+    secure: gJnYLIGUrGv7DBKHJByYgxbAGGpDAo37spjDznlOQFdOyhi7q0+UPGcTyHy7yW6103MmyDe3FmK3KgaMOvLhcPq0xXdMDQKDSj9r20eHBBlWv0GDIGTP7gj6R/+eUYgcuRmDpE+XE5vQji9eb1Ld89SFvx2pCBR2OnzhiH7Y+cM=
+  on:
+    tags: true
+    repo: SkittishSlothLabs/ss-lib-generator
+- provider: releases
+  api_key:
+    secure: EQuX8SucxTvccsz0XFBXsRikekg/seTL2h4eD2okNU0UTjUUsD7bmZcLihxFMpDGu+YC3DJ0RfVDHRGCjvKikwkVARKDvuqDT9ndqjscL7E9YAEnHJED06CSaZPgFb7/1uU8LfE4to3LzlYnHTYwjlvp8AdiKl41aMiOlNunN5w=
+  file: app/
+  on:
+    repo: SkittishSlothLabs/ss-lib-generator
+
