@@ -6,9 +6,9 @@
   "main": "app/index.js",
   "repository": "mcory/generator-ss-lib-generator",
   "author": {
-    "name": "Matthew Cory",
+    "name": "Skittish Sloth",
     "email": "",
-    "url": "https://github.com/mcory"
+    "url": "https://github.com/SkittishSlothLabs"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -20,7 +20,8 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "library"
   ],
   "dependencies": {
     "yeoman-generator": "^0.18.9",
