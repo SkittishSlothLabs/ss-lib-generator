@@ -16,10 +16,10 @@ deploy:
   on:
     tags: true
     repo: SkittishSlothLabs/ss-lib-generator
-- provider: releases
-  api_key:
-    secure: EQuX8SucxTvccsz0XFBXsRikekg/seTL2h4eD2okNU0UTjUUsD7bmZcLihxFMpDGu+YC3DJ0RfVDHRGCjvKikwkVARKDvuqDT9ndqjscL7E9YAEnHJED06CSaZPgFb7/1uU8LfE4to3LzlYnHTYwjlvp8AdiKl41aMiOlNunN5w=
-  file: app/
-  on:
-    repo: SkittishSlothLabs/ss-lib-generator
+# - provider: releases
+#   api_key:
+#     secure: EQuX8SucxTvccsz0XFBXsRikekg/seTL2h4eD2okNU0UTjUUsD7bmZcLihxFMpDGu+YC3DJ0RfVDHRGCjvKikwkVARKDvuqDT9ndqjscL7E9YAEnHJED06CSaZPgFb7/1uU8LfE4to3LzlYnHTYwjlvp8AdiKl41aMiOlNunN5w=
+#   file: app/
+#   on:
+#     repo: SkittishSlothLabs/ss-lib-generator
 
