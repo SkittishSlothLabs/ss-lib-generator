@@ -1,3 +1,3 @@
-# <%= _.slugify(_.humanize(appname)) %> #
+# <%= _.slugify(_.humanize(libName)) %> #
 
 <%= libDescription %>
