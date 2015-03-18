@@ -1,6 +1,6 @@
 {
   "name": "generator-ss-lib-generator",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Yeoman generator for creating simple javascript libraries.",
   "license": "MIT",
   "main": "app/index.js",
