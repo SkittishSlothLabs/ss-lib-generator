@@ -1,14 +1,14 @@
 {
   "name": "generator-ss-lib-generator",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Yeoman generator for creating simple javascript libraries.",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "SkittishSlothLabs/ss-lib-generator",
+  "repository": "SlothLabs/ss-lib-generator",
   "author": {
     "name": "Skittish Sloth",
     "email": "sloth.labs@gmail.com",
-    "url": "https://github.com/SkittishSlothLabs"
+    "url": "https://github.com/SlothLabs"
   },
   "engines": {
     "node": ">=0.10.0"

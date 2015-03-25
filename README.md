@@ -1,4 +1,4 @@
-# generator-ss-lib-generator [![Build Status](https://travis-ci.org/SkittishSlothLabs/ss-lib-generator.svg?branch=master)](https://travis-ci.org/SkittishSlothLabs/ss-lib-generator)
+# generator-ss-lib-generator [![Build Status](https://travis-ci.org/SlothLabs/ss-lib-generator.svg?branch=master)](https://travis-ci.org/SlothLabs/ss-lib-generator)
 
 > [Yeoman](http://yeoman.io) generator for creating simple javascript libraries.
 

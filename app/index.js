@@ -16,7 +16,7 @@ module.exports = yeoman.generators.Base.extend({
 
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the ' + chalk.red('Skittish Sloth Library Generator') + '.'
+      'Welcome to the ' + chalk.red('Sloth Library Generator') + '.'
     ));
 
     var prompts = [{
